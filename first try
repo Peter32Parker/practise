@@ -1,5 +1,5 @@
 #include<stdio.h>
-test()
+/*test()
 {
 	int i = 1;
 	i++;
@@ -17,5 +17,21 @@ int main(void)
 	else
 		printf("%d不是一个奇数", a);
 	return 0;
-}
+	}*/
+	
 
+
+int main(void)
+{
+	int ch=0;
+	while ((ch = getchar()) != EOF)
+	{
+		if (ch < '0' || ch>'9')//为什么敲出任何数字都是 可行的呢,然后在学一学ascii码, 有点晕
+		
+			continue;
+		else
+			putchar(ch);
+
+	}
+	return 0;
+}
