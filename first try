@@ -1,0 +1,21 @@
+#include<stdio.h>
+test()
+{
+	int i = 1;
+	i++;
+	printf("i=%d\n", i);
+
+
+}
+int main(void)
+{
+	int a;
+	printf("输入一个数:\n");
+	scanf_s("%d", &a);
+	if (1== a % 2)
+		printf("%d是一个奇数", a);
+	else
+		printf("%d不是一个奇数", a);
+	return 0;
+}
+
