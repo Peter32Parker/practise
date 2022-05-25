@@ -1,0 +1,18 @@
+#include<stdio.h>//试着做算n的阶乘,但是第一次尝试没有成功.
+int main(void)
+
+{
+	int i = 0;
+	int z = 1;
+	int n = 10;
+	for (i = 1;i <= n;i++)
+	
+		z = z * i;
+		printf("%d", z);
+	
+	
+
+
+	return 0;
+}
+
