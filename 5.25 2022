@@ -1,4 +1,4 @@
-#include<stdio.h>//试着做算n的阶乘,但是第一次尝试没有成功.
+#include<stdio.h>//试着做算n的阶乘,但是第一次成功. 这里改成scanf更好,而不是给n一个定值
 int main(void)
 
 {
